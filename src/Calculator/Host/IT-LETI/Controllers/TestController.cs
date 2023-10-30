@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Calculator.Contracts.Test;
+using Calculator.Contracts;
 
 namespace IT_LETI.Controllers
 {
@@ -24,11 +24,7 @@ namespace IT_LETI.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateTest([FromBody] CreateTestDto model)
         {
-
-
-
+            return Ok();
         }
-
-
     }
 }
