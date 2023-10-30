@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calculator.Contracts
 {
-    internal class CreateSexDto
+    internal class CreateTestDto
     {
     }
 }
